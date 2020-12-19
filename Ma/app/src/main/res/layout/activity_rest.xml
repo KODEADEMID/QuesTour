@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    tools:context=".rest.RestActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Кофейня «Сладости и Радости»"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="15dp"
+            android:textSize="30sp" />
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_height="250dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/rest"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:text="В кофейнях «Сладости и Радости» представлено более 30 ароматных напитков и 80 неповторимых блюд. Для приготовления выпечки и десертов кондитеры используют только натуральные ингредиенты, прошедшие внутренний контроль на производстве. Они не экономят на вкусе, поэтому уделяют особое внимание свежести молока, фруктов и ягод. В кофейне можно не только отдохнуть и выпить кофе с десертом, но и насладиться прекрасным интерьером и видом из окна."/>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="25sp"
+            android:text="ЗАДАНИЕ:"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"/>
+        <TextView
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="Выпить кофе с фирменным десертом, оплатив это SberPay"
+            />
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="25sp"
+            android:text="НАГРАДА:"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"/>
+        <TextView
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="100 бонусов СПАСИБО"
+            />
+
+
+        <Button
+
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/road"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Как добраться"
+            />
+        <Button
+            android:id="@+id/task_qr"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Выполнить задание"
+            />
+    </LinearLayout>
+
+</ScrollView>

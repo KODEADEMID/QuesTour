@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="turism.ru.Menu.ui.person.PersonFragment"
+    android:orientation="vertical"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:text="Паспорт Туриста"
+        android:textAlignment="center"/>
+
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:text="Имя:"
+        android:paddingLeft="5dp"
+         />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-29dp"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:layout_marginLeft="120dp"
+        android:text="Карина"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/text_surname"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="5dp"
+        android:textSize="20sp"
+        android:text="Фамилия:"
+        />
+    <TextView
+        android:id="@+id/tv_surname"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-27dp"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:layout_marginLeft="120dp"
+        android:text="Волкова"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/text_series"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="5dp"
+        android:textSize="20sp"
+        android:text="ID:"
+        />
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-27dp"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:layout_marginLeft="120dp"
+        android:text="18439903"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/text_money"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="100dp"
+        android:textSize="20sp"
+        android:text="Бонусы:"
+        />
+    <TextView
+        android:id="@+id/tv_money"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-27dp"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:layout_marginLeft="200dp"
+        android:text="150"
+        android:textColor="#000"
+        />
+    <TextView
+        android:id="@+id/tv_bonus"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-27dp"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:layout_marginLeft="240dp"
+        android:text="шт."
+        android:textColor="#000"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:text="Потратить бонусы"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:textSize="20dp"
+android:text="Путешествуйте и получайте бонусы, которые вы сможете потратить на сувениры или скидочные купоны кампаний-партнеров." />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:text="Здесь также будет представлена история расходов этих бонусов"
+        />
+
+</LinearLayout>

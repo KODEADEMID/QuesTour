@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="turism.ru.Menu.ui.home.HomeFragment"
+        android:label="Главная"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_person"
+        android:name="turism.ru.Menu.ui.person.PersonFragment"
+        android:label="Личный кабинет"
+        tools:layout="@layout/fragment_person" />
+
+    <fragment
+        android:id="@+id/nav_quest"
+        android:name="turism.ru.Menu.ui.quest.QuestFragment"
+        android:label="Квесты"
+        tools:layout="@layout/fragment_quest" />
+</navigation>
